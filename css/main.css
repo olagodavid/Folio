@@ -364,3 +364,11 @@ ul#nav li.current a:after {
 	}
 
 }
+/* make sure the menu is visible on larger screens
+--------------------------------------------------------------------- */
+@media only screen and (min-width:769px) {
+	#nav-wrap ul#nav {
+		display: block !important;
+	}
+
+}
