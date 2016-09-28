@@ -293,3 +293,62 @@ ul#nav li.current a:after {
 	#nav-wrap .menu-icon:after {
 		top: 8px;
 	}
+
+	/* dropdown nav */
+	#nav-wrap ul#nav {
+		background: #1c212a;
+		padding: 54px 45px 60px 45px;
+		margin: 0;
+		height: auto;
+		display: none;
+		clear: both;
+		width: 100%;
+		float: none;
+		position: absolute;
+		top: 66px;
+		right: 0;
+	}
+
+	#nav-wrap ul#nav > li {
+		display: block;
+		float: none;
+		height: auto;
+		text-align: left;
+		border-bottom: 1px dotted rgba(200, 200, 200, 0.1);
+		padding: 6px 0;
+	}
+
+	#nav-wrap ul#nav > li:first-child {
+		border-top: 1px dotted rgba(200, 200, 200, 0.1);
+	}
+
+	#nav-wrap ul#nav li a {
+		display: block;
+		width: auto;
+		padding: 0;
+		color: #cacbcb;
+		padding: 12px 0;
+		line-height: 16px;
+		border: none;
+	}
+
+	#nav-wrap ul#nav li a:hover {
+		color: #FFFFFF;
+	}
+
+	#nav-wrap ul#nav li.current > a {
+		background: none;
+		color: #fdc501;
+	}
+
+	#nav-wrap ul#nav li.current > a:after {
+		display: none;
+	}
+
+	#nav-wrap a.mobile-btn {
+		display: none;
+	}
+
+	.js #nav-wrap a#toggle-btn {
+		display: block;
+	}
