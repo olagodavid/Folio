@@ -123,3 +123,28 @@ header .header-social li a {
 header .header-social li a:hover {
 	color: #fdc501;
 }
+
+/* media queries:  
+/* header/header components */
+@media only screen and (max-width:880px) {
+	header .header-social {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	header {
+		background: black;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	header .row {
+		width: 100%;
+	}
+
+	header .logo {
+		margin-left: -30px;
+	}
+
+}
