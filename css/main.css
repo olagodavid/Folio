@@ -352,3 +352,15 @@ ul#nav li.current a:after {
 	.js #nav-wrap a#toggle-btn {
 		display: block;
 	}
+
+	/* if js is disabled */
+	.no-js #nav-wrap:not(:target) > a:first-of-type,
+	.no-js #nav-wrap:target > a:last-of-type {
+		display: block;
+	}
+
+	.no-js #nav-wrap:target ul#nav {
+		display: block;
+	}
+
+}
